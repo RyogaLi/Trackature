@@ -71,7 +71,8 @@ src/make_counts.sh data/example.vcf data/example_vaf.txt
 where the first parameter is the vcf file and the second parameter is file with VAF values generated at the previous step.
 
 Requires hg19 reference which can be downloaded from here: http://hgdownload.cse.ucsc.edu/goldenPath/hg19/chromosomes/
-
+Using an `rsync` command to download all the hg19 reference files: 
+`rsync -avzP rsync://hgdownload.cse.ucsc.edu/goldenPath/hg19/chromosomes/ ./annotation/hg19/`
 
 
 
